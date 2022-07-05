@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+/*-------------------------------
+    || UNIVERSAL__STYLE ||
+=================================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*-------------------------------
+    || COMMON__STYLE ||
+=================================*/
+.button .btn {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(251, 162,  79, 100%);
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 38px;
+}
+
+/*-------------------------------
+    || HOME__SECTION__START ||
+=================================*/
+.home_section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.common_style {
+    display: flex;
+    align-items: center;
+}
+
+.half_width {
+    width: 50%;
+}
+
+.half_width img {
+    width: 80%;
+    margin-left: 17%;
+}
+
+.hero_text h1 {
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.hero_text p {
+    font-size: 20px;
+    color: #828282;
+    padding-top: 30px;
+}
+
+.hero_text span{
+    color: rgb(251, 162, 79, 100%);
+}
+
+/*---------------------------------
+    || HOME__SECTION__END ||
+==================================*/
+
+/*-------------------------------
+    || ABOUT__SECTION__START ||
+=================================*/
+
+.about_area{
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about_img img {
+    max-width: 60%;
+    padding: 30px;
+}
+
+.about_text h2 {
+    font-size: 46px;
+    padding-bottom: 30px;
+}
+
+.about_text p {
+    font-size: 18px;
+    color: #707070;
+}
+
+/*-------------------------------
+    || ABOUT__SECTION__END ||
+=================================*/
+
+/*-------------------------------
+    ||PROJECT__SECTION__START ||
+=================================*/
+
+section.project_area {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.project_title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project_title h2 {
+    font-size: 40px;
+}
+
+.project_title p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 20px;
+}
+
+.project_width {
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.project_item {
+    margin-top: 40px;
+    box-shadow: 1px 2px 26px 8px rgb(0 0 0 / 12%);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.project_item img {
+    width: 100%;
+    border-radius: 30px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.project_item h2 {
+    font-size: 26px;
+    padding: 10px 0;
+}
+
+.project_item p {
+    font-size: 16px;
+    line-height: 23px;
+    padding-bottom: 14px;
+}
+
+/*-------------------------------
+    ||PROJECT__SECTION__END ||
+=================================*/
+
+/*-------------------------------
+    ||STATS__SECTION__START ||
+=================================*/
+
+.stats_area{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.stats_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+    padding: 50px 60px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.stats_item span {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.stats_item p {
+    font-size: 16px;
+    color: #707070;
+    font-weight: 600;
+}
+
+/*-------------------------------
+    ||STATS__SECTION__END||
+=================================*/
+
+/*-------------------------------
+    ||FOOTER__SECTION__START ||
+=================================*/
+
+footer{
+    background: #0B0D17;
+}
+
+.footer_box{
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.footer_box h2 {
+    color: #5B5B5B;
+    font-size: 30px;
+}
+
+.footer_box span {
+    color: rgb(251, 162, 79, 100%);
+    cursor: pointer;
+}
+
+.footer_box p {
+    font-size: 16px;
+    color: #fff;
+    padding-top: 15px;
+}
+
+/*-------------------------------
+    ||FOOTER__SECTION__START ||
+=================================*/
+
+
+
+
+
+
